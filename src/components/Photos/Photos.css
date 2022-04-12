@@ -1,0 +1,11 @@
+.photo-item {
+  list-style: none;
+}
+
+.photo-title {
+  padding-left: 26px;
+}
+
+.input-search {
+  margin: 12px 26px;
+}

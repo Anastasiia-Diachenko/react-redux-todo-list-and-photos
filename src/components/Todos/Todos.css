@@ -1,0 +1,129 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 36px;
+  padding: 12px;
+
+  width: 40vw;
+  height: fit-content;
+
+  align-items: center;
+  flex-direction: column;
+  background-color: thistle;
+  border: 1px solid gainsboro;
+  border-radius: 50px;
+  box-shadow: 16px 10px 10px lightgrey;
+}
+
+.todo-item {
+  list-style: none;
+}
+
+.todo-link {
+  padding: 0 32px;
+
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(61, 58, 58);
+}
+
+.todo-link:hover {
+  transition: 0.5s;
+  transform: scale(1.07);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.list-group {
+  display: flex;
+  padding: 0;
+
+  height: 50vh;
+
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.form {
+  display: flex;
+  margin: 22px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-add,
+.input-search {
+  height: 22px;
+  margin-top: 10px;
+}
+
+.btn-add {
+  margin: 10px 20px;
+  padding: 10px 30px;
+
+  color: white;
+
+  border-radius: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    grey 0%,
+    lightgrey 51%,
+    grey 100%
+  );
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.select {
+  width: 147px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-position: right center;
+}
+
+.li-item {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.btn-complete {
+  border: 0 transparent;
+  border-radius: 50px;
+  width: 15px;
+  height: 15px;
+}
+
+.icon-complete {
+  width: 17px;
+  height: 17px;
+  transform: translate(-7px, -2px);
+  cursor: pointer;
+}
+
+.todos-title,
+.todo-details,
+.photo-title {
+  color: grey;
+  text-shadow: 1px 1px 2px black, 0 0 1em grey;
+}
+
+.icons {
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.todo-details {
+  padding-left: 12px;
+}
